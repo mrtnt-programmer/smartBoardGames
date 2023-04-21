@@ -1,0 +1,73 @@
+h1{ 
+  color: red;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+table{
+    border: 6px solid blue;
+    border-collapse: collapse;
+    background-color: Gold;
+    margin: auto;
+}
+
+td{
+    border: 2px solid black;
+    width: 3cm;
+    height: 3cm;
+    text-align: center;
+    font-size: 4em;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+
+.score{
+  color: red;
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  text-align:center;
+}
+  
+td:hover{
+/*   background-color: LightCoral; */
+}
+
+input:hover{
+  opacity:  0.7;
+  cursor: pointer;
+}
+
+#jeu{
+  width: 58%;  
+  height: 97vh;
+  background-color: Lavender;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+body{
+   background-color: black;
+   padding: 0;
+}
+
+#restart input{
+  font-size: 3em;
+  background-color:red;
+  text-align: center;
+  margin-left: 40%;
+}
+
+table input{
+    width: 90%;
+    height: 90%;
+    margin: 0px;
+    opacity: 0;
+}
+
+#message{
+  text-align: center;
+  font-size: 2em;
+}

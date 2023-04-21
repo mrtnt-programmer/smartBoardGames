@@ -1,0 +1,60 @@
+
+@keyframes fade{
+    0% {background-color: Gold;}
+    50% {background-color: FireBrick;}
+    100% {background-color: Gold;}
+}
+
+@keyframes last{
+    0% {background-color: Gold; color: Gold; opacity: 0;}
+    50% {background-color: FireBrick; color: FireBrick; opacity: 1;}
+    100% {background-color: Gold; color: black; opacity: 1;}
+}
+
+#restart input{
+  font-size: 3em;
+  background-color:red;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: 6px solid FireBrick;
+  border-radius:30px;
+}
+
+body{
+  background-color: LightCoral ;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border: 4px solid black;
+    background-color: Gold;
+    width: 2cm;
+    height: 2cm;
+    text-align: center;
+    font-size: 2em;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: Gold;
+    animation-fill-mode: forwards;
+}
+
+#jeu{
+  width: 58%;  
+  height: 97vh;
+  background-color: Lavender;
+  margin: auto;
+  vertical-align: top;
+}
+
+h1{ 
+  color: FireBrick;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
